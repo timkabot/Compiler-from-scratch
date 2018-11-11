@@ -1,0 +1,57 @@
+namespace Dlanguage
+{
+    public enum TokenType
+    {
+            If,
+            Then,
+            Else,
+            Var,
+            End, 
+                        
+            Or,
+            Xor,
+            Not,
+                        
+            ReadInt,
+            ReadReal,
+            ReadString,
+            EndOfProgram,                 
+            Print,
+            Return,
+            Bool,
+            Empty,
+            
+            True,
+            False,
+            Is,
+            String,
+            Func,
+            For,
+            In,
+            Loop,
+            Int,
+            Real,
+            SequenceTerminator,
+            Assign,
+            Smaller,
+            Bigger,
+            SmallerOrEq,
+            BiggerOrEq,
+            Equals,
+            NotEquals,
+            Sum,
+            Subtraction,
+            Multiplication,
+            Division,
+            OpenVectorBracket,
+            ClosedVectorBracket,
+            OpenTupleBracket,
+            CloseTupleBracket,
+            ReturnType,
+            Number,
+            StringValue,
+            OpenParenthesis,
+            CloseParenthesis,
+            Comma
+        }
+}
