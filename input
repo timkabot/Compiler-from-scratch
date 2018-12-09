@@ -1,0 +1,12 @@
+var i:= 0;
+var a:=[];
+a[0] := 1;
+a[1] := 1;
+
+var index := readInt;
+
+for i in 2..index loop {
+   a[i] := a[i-1] + a[i-2];
+} end;
+
+print a[index-1];

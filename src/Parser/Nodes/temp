@@ -1,0 +1,103 @@
+var b = (ada + dwa /as) and 2;
+var a = [dawd, dawdaw];
+var c = func (dwdw, dwd) is { djwad }end;
+print c;
+var a := (ab + 3 -4) * sin / xyu + 8 > 9 xor lox;
+var b := "hi";
+var c := not me.3;
+var c := ((3 + 224.2) * ( ab + cs * 2.4) / "adawwd" );
+var jepa := - xyu( (pi*wdw)/ 2.4 + "stasd" , (xx / a * "a") - 2.2 );
+while (lit and lit != "lalala")
+  loop {
+    return;
+  }
+  end;
+for i in 2..7
+  loop {
+    var try_true := "Help" + "Me" + "pls";
+    print lit, (lit), lit;
+  }
+  end;
+var literal := 10;
+var ref := [];
+ref[literal] := 25;
+ref[literal*10] := fu(x);
+ref[100] := fu(x);
+ref[1000] := {a:=1,b:=2.7};
+if true then {
+    print "Right";
+} else {
+    print "Wrong" + "At all";
+} end;
+var t := {a:=1, b:=2, c};
+t := t + {d:=3};
+var a := x.1;
+var b := x.y;
+var c := x[(adw + 2)];
+var xyu := j.2( ( ("strss" + 2) / 2), 5);
+
+
+var a := 3;
+var b := 5;
+print a+b;
+
+var a := 4;
+var b := 5;
+var a := { a:= "stasda", 2.4 };
+var f := func (a,b) is {
+    print b;
+    print a[ ("sd"+3) ];
+    var g := func (j, p) => 1;
+} end;
+while ( 2 > 3) loop  {
+  print 3;
+} end;
+
+//пузырек
+var i:= 0;
+var a:=[];
+for i in 1..5 loop {
+   a[i] := readInt;
+} end;
+var j :=0;
+var k:=1;
+var index:=0;
+var temp := 0;
+for i in 1..5 loop {
+    index := i;
+    for k in (i+1)..5 loop
+    { 
+        if a[index] > a[k] then 
+        {
+           index := k;
+        }end;   
+        
+    }end;
+    for h in 1..5 loop{
+        print a[h];
+    }end;
+    print "-----";
+    temp := a[i];
+    a[i] := a[index];
+    a[index] :=temp;
+
+    
+} end;
+
+for i in 1..5 loop{
+    print a[i], i;
+}end;
+
+//Фибоначчи
+var i:= 0;
+var a:=[];
+a[0] := 1;
+a[1] := 1;
+
+var index := readInt;
+
+for i in 2..index loop {
+   a[i] := a[i-1] + a[i-2];
+} end;
+
+print a[index-1];

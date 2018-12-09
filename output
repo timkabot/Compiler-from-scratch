@@ -1,0 +1,150 @@
+Root Node
+  Body Node, Scope: id__i id__a id__index 
+    Declaration Node
+      id__i
+      Expression Node
+        Relation Node
+          Factor Node
+            Term Node
+                  Literal Node
+                    0
+    Declaration Node
+      id__a
+      Expression Node
+        Relation Node
+          Factor Node
+            Term Node
+                  Literal Node
+                    []
+    Statement Node
+        AssNode
+        Assigment Node
+          Primary Node
+            id__a
+            Tail Node
+                ArrIndex
+                Expression Node
+                  Relation Node
+                    Factor Node
+                      Term Node
+                            Literal Node
+                              0
+          Expression Node
+            Relation Node
+              Factor Node
+                Term Node
+                      Literal Node
+                        1
+    Statement Node
+        AssNode
+        Assigment Node
+          Primary Node
+            id__a
+            Tail Node
+                ArrIndex
+                Expression Node
+                  Relation Node
+                    Factor Node
+                      Term Node
+                            Literal Node
+                              1
+          Expression Node
+            Relation Node
+              Factor Node
+                Term Node
+                      Literal Node
+                        1
+    Declaration Node
+      id__index
+      Expression Node
+        Relation Node
+          Factor Node
+            Term Node
+                  Primary Node
+                    readInt
+    Statement Node
+        LoopNode
+        For Loop
+          Identifier: id__i
+          Iteraror Node
+            Expression Node
+              Relation Node
+                Factor Node
+                  Term Node
+                        Literal Node
+                          2
+            Expression Node
+              Relation Node
+                Factor Node
+                  Term Node
+                        Primary Node
+                          id__index
+          Body Node, Scope: id__i id__a id__index 
+            Statement Node
+                AssNode
+                Assigment Node
+                  Primary Node
+                    id__a
+                    Tail Node
+                        ArrIndex
+                        Expression Node
+                          Relation Node
+                            Factor Node
+                              Term Node
+                                    Primary Node
+                                      id__i
+                  Expression Node
+                    Relation Node
+                      Factor Node
+                        Term Node
+                              Primary Node
+                                id__a
+                                Tail Node
+                                    ArrIndex
+                                    Expression Node
+                                      Relation Node
+                                        Factor Node
+                                          Term Node
+                                                Primary Node
+                                                  id__i
+                                          Minus
+                                          Term Node
+                                                Literal Node
+                                                  1
+                        Plus
+                        Term Node
+                              Primary Node
+                                id__a
+                                Tail Node
+                                    ArrIndex
+                                    Expression Node
+                                      Relation Node
+                                        Factor Node
+                                          Term Node
+                                                Primary Node
+                                                  id__i
+                                          Minus
+                                          Term Node
+                                                Literal Node
+                                                  2
+    Statement Node
+        PrintNode
+        Print Node
+          Expression Node
+            Relation Node
+              Factor Node
+                Term Node
+                      Primary Node
+                        id__a
+                        Tail Node
+                            ArrIndex
+                            Expression Node
+                              Relation Node
+                                Factor Node
+                                  Term Node
+                                        Primary Node
+                                          id__index
+                                  Minus
+                                  Term Node
+                                        Literal Node
+                                          1

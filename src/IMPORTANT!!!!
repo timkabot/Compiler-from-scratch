@@ -1,0 +1,5 @@
+In BodyNode all objects ( Declaration , Statement, Expression) have ; after it (Due to ease of parsing)
+In StatementNode all objects (Assignment ,If, Return , Print ,Loop ) have ; after it (Due to ease of parsing)
+
+
+IF Statement became  --> If Expr then { Body } [ else { Body } ] end
